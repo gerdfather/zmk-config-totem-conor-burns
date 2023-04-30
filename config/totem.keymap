@@ -72,10 +72,10 @@ label= "BASE"                              ;
  bindings = <
 // ╷           ╷           ╷           ╷           ╷           ╷           ╷   ╷           ╷           ╷           ╷           ╷           ╷           ╷
 
-                     &kp Q         &kp W   &kp E           &kp R         &kp T       &kp Y      &kp U         &kp I       &kp O       &kp P
-                     &kp A         &kp S   &kp D           &kp F         &kp G       &kp H      &kp J         &kp K       &kp L       &kp SEMI
-    &mt LSHFT NUBS   &mt LCTRL Z   &kp X   &kp C           &kp V         &kp B       &kp N      &kp M         &kp COMMA   &kp DOT     &mt RCTRL FSLH   &kp RSHFT
-                                           &mt LALT DEL   &lt NAV TAB   &kp SPACE   &kp BSPC   &lt SYM ESC   &mt RALT RET
+                     &kp Q         &kp W   &kp E           &kp R         &kp T       &kp Y          &kp U         &kp I       &kp O       &kp P
+                     &kp A         &kp S   &kp D           &kp F         &kp G       &kp H          &kp J         &kp K       &kp L       &kp SEMI
+    &mt LSHFT NUBS   &mt LCTRL Z   &kp X   &kp C           &kp V         &kp B       &kp N          &kp M         &kp COMMA   &kp DOT     &mt RCTRL FSLH   &kp RSHFT
+                                           &mt LALT DEL   &lt NAV TAB   &kp SPACE   &mt LGUI BSPC   &lt SYM ESC   &mt RALT RET
                         >;
                 };
 
@@ -98,10 +98,10 @@ label= "NAVI"                              ;
  bindings = <
 // ╷           ╷           ╷           ╷           ╷           ╷           ╷   ╷           ╷           ╷           ╷           ╷           ╷           ╷
 
-                     &kp ESC     &bt BT_CLR  &kp UP      &kp EQUAL   &kp RA(N7)        &kp RA(N0)    &kp N7   &kp N8   &kp N9   &kp RBKT
-                     &kp LSHFT   &kp LEFT    &kp DOWN    &kp RIGHT   &kp RA(N8)        &kp RA(N9)    &kp N4   &kp N5   &kp N6   &kp FSLH
-    &mt LSHFT NUBS   &kp LGUI    &kp PG_UP   &kp CAPS    &kp PG_DN   &kp LS(N8)        &kp LS(N9)    &kp N1   &kp N2   &kp N3   &kp RBKT   &trans      
-                                        &trans      &trans      &trans            &mo ADJ       &kp N0   &mt RALT RET      
+                     &kp ESC     &bt BT_CLR  &kp UP        &kp EQUAL   &kp RA(N7)   &kp RA(N0)   &kp N7   &kp N8       &kp N9    &kp RBKT
+                     &kp LSHFT   &kp LEFT    &kp DOWN      &kp RIGHT   &kp RA(N8)   &kp RA(N9)   &kp N4   &kp N5       &kp N6    &kp FSLH
+    &mt LSHFT NUBS   &kp LCTRL   &kp PG_UP   &kp CAPS      &kp PG_DN   &kp LS(N8)   &kp LS(N9)   &kp N1   &kp N2       &kp N3    &mt RCTRL RBKT   &kp RSHFT
+                                             &mt LALT DEL  &kp LGUI    &kp SPACE    &mo ADJ      &kp N0   &mt RALT RET
                         >;
                 };
 
@@ -124,10 +124,10 @@ label= "SYM"                               ;
  bindings = <
 // ╷           ╷           ╷           ╷           ╷           ╷           ╷   ╷           ╷           ╷           ╷           ╷           ╷           ╷
 
-                &kp EXCL    &kp AT      &kp HASH    &kp DLLR    &kp PRCNT       &trans   &kp LBKT    &trans   &kp SEMI     &trans       
-                &kp SQT     &kp MINUS   &trans   &trans      &trans          &kp C_MUTE  &kp LS(RA(N4)) &kp RA(N5) &kp RA(N4)   &kp RA(O) 
-    &trans      &kp RA(F18) &kp RA(F19) &trans      &trans      &trans          &kp C_VOL_DN &kp C_VOL_UP &kp C_PREV &kp C_NEXT  &kp BSLH   &trans         
-                                        &trans      &gif        &mo ADJ         &trans      &kp C_PP    &trans      
+                &kp EXCL          &kp AT      &kp HASH       &kp DLLR    &kp PRCNT   &trans        &kp LBKT        &trans        &kp SEMI     &trans
+                &kp SQT           &kp MINUS   &trans         &trans      &trans      &kp C_MUTE    &kp LS(RA(N4))  &kp RA(N5)    &kp RA(N4)   &kp RA(O) 
+    &kp LSHFT   &mt LCTRL RA(F18) &kp RA(F19) &trans         &trans      &trans      &kp C_VOL_DN  &kp C_VOL_UP    &kp C_PREV    &kp C_NEXT   &kp BSLH   &kp RSHFT
+                                              &mt LALT DEL   &gif        &mo ADJ     &trans        &kp C_PP        &mt RALT RET
                         >;
                 };
 
