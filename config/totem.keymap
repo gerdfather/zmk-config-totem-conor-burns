@@ -100,7 +100,7 @@ label= "NAVI"                              ;
 
                   &kp RBKT     &kp LS(N2) &kp UP        &kp LS(NUHS) &kp RA(N7)   &kp RA(N0)   &kp N7      &kp N8       &kp N9    &kp COMMA
                   &kp FSLH     &kp LEFT   &kp DOWN      &kp RIGHT    &kp RA(N8)   &kp RA(N9)   &kp N4      &kp N5       &kp N6    &kp DOT
-    &kp LS(FSLH)  &kp LS(RBKT) &kp PG_UP  &kp LS(N0)    &kp PG_DN    &kp LS(N8)   &kp LS(N9)   &kp N1      &kp N2       &kp N3    &kp LS(COMMA)   &kp RSHFT
+    &kp LS(N7)    &kp LS(RBKT) &kp PG_UP  &kp LS(N0)    &kp PG_DN    &kp LS(N8)   &kp LS(N9)   &kp N1      &kp N2       &kp N3    &kp LS(COMMA)   &kp RSHFT
                                           &kp LS(MINUS) &trans       &kp LS(EQL)  &kp LALT     &mo ADJ     &kp N0
                         >;
                 };
@@ -124,7 +124,7 @@ label= "SYM"                               ;
  bindings = <
 // ╷           ╷           ╷           ╷           ╷           ╷           ╷   ╷           ╷           ╷           ╷           ╷           ╷           ╷
 
-                &kp LS(N1)     &kp LS(N2)  &kp LS(N3)   &kp LS(N4)   &kp LS(N5)   &kp LS(N6)    &kp LBKT    &kp LS(N8)  &kp SEMI    &kp LS(N0)
+                &kp LS(N1)     &kp LS(N2)  &kp LS(N3)   &kp LS(N4)   &kp LS(N5)   &kp LS(N6)   &kp LBKT   &kp LS(N7)  &kp SEMI    &kp LS(N0)
                 &kp SQT        &kp MINUS   &kp PG_UP    &kp PG_DN    &kp DEL      &kp LC(Z)    &kp LC(Y)   &kp LC(C)   &kp LC(V)   &kp LC(F) 
     &kp LSHFT   &kp LCTRL      &kp C_MUTE  &kp C_VOL_UP &kp C_VOL_DN &kp PSCRN    &kp LA(TAB)  &kp LG(TAB) &kp LS(F5)  &kp LA(F4)  &kp KP_NUM  &kp RSHFT
                                            &kp LALT     &mo ADJ      &kp DEL      &trans       &trans      &trans
@@ -151,8 +151,8 @@ label= "ADJ"                               ;
 // ╷           ╷           ╷           ╷           ╷           ╷           ╷   ╷           ╷           ╷           ╷           ╷           ╷           ╷
 
                 &trans      &trans        &out OUT_TOG &trans      &kp NUBS       &kp LS(NUBS)  &kp F7      &kp F8     &kp F9      &kp F12
-                &bootloader &bt BT_CLR    &bt BT_NXT   &bt BT_PRV  &kp FSLH       &kp LS(FSLH)  &kp F4      &kp F5     &kp F6      &kp F11  
-    &kp LSHFT   &kp LALT    &kp LS(MINUS) &kp LS(N1)   &kp EQUAL   &kp LS(N6)     &kp RA(NUBS)  &kp F1      &kp F2     &kp F3      &kp F10     &kp LALT
+                &bootloader &bt BT_CLR    &bt BT_NXT   &bt BT_PRV  &kp FSLH       &kp LS(N7)  &kp F4      &kp F5     &kp F6      &kp F11  
+    &kp LSHFT   &kp LALT    &kp LS(MINUS) &kp LS(N1)   &kp LS(N0)  &kp LS(N6)     &kp RA(NUBS)  &kp F1      &kp F2     &kp F3      &kp F10     &kp LALT
                                           &trans       &trans      &trans         &kp RA(MINUS) &trans      &trans 
                         >;
                 };
