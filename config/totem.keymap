@@ -100,7 +100,7 @@ label= "NAVI"                              ;
 
                   &kp RBKT     &kp LS(N2) &kp UP        &kp LS(NUHS) &kp RA(N7)   &kp RA(N0)   &kp N7      &kp N8       &kp N9    &kp COMMA
                   &kp FSLH     &kp LEFT   &kp DOWN      &kp RIGHT    &kp RA(N8)   &kp RA(N9)   &kp N4      &kp N5       &kp N6    &kp DOT
-    &kp LS(N7)    &kp LS(RBKT) &kp PG_UP  &kp LS(N0)    &kp PG_DN    &kp LS(N8)   &kp LS(N9)   &kp N1      &kp N2       &kp N3    &kp LS(COMMA)   &kp RSHFT
+    &kp LS(N7)    &kp LS(RBKT) &kp HOME   &kp LS(N0)    &kp END      &kp LS(N8)   &kp LS(N9)   &kp N1      &kp N2       &kp N3    &kp LS(COMMA)   &kp RSHFT
                                           &kp LS(MINUS) &trans       &kp LS(EQL)  &kp LALT     &mo ADJ     &kp N0
                         >;
                 };
