@@ -145,10 +145,10 @@ label= "NAV"                              ;
  bindings = <
 // ╷           ╷           ╷           ╷           ╷           ╷           ╷   ╷           ╷           ╷           ╷           ╷           ╷           ╷
 
-                  &trans      &trans      &trans        &trans     &trans         &trans       &kp HOME      &kp PG_DN   &kp PG_UP  &kp END
-                  &kp LGUI    &kp LALT    &kp LCTRL     &kp LSHFT  &trans         &kp CAPSLOCK &kp LEFT      &kp DOWN    &kp UP     &kp RIGHT
-    &trans        &trans      &trans      &trans        &trans     &trans         &kp INSERT   &kp HOME      &kp PG_DN   &kp PG_UP  &kp END     &trans
-                                          &lt MEDIA ESC &trans     &lt MOUSE TAB  &lt SYM RET  &lt NUM BSPC  &lt FUN DEL
+                  &kp CAPSLOCK &kp INSERT  &trans        &trans     &trans         &kp HOME     &kp PG_DN     &kp PG_UP   &kp END    &trans
+                  &kp LGUI     &kp LALT    &kp LCTRL     &kp LSHFT  &trans         &kp LEFT     &kp DOWN      &kp UP      &kp RIGHT  &trans
+    &kp N1        &kp N2       &kp N3      &kp N4        &kp N5     &kp N6         &kp N7       &kp N8        &kp N9      &kp N0     &kp MINUS  &kp EQUAL
+                                           &lt MEDIA ESC &trans     &lt MOUSE TAB  &lt SYM RET  &lt NUM BSPC  &lt FUN DEL
                         >;
                 };
 
@@ -174,7 +174,7 @@ label= "NUM"                              ;
                   &kp FSLH    &kp N7      &kp N8       &kp N9     &kp LS(N8)       &kp LS(N9)  &kp LS(N2)  &kp LS(NUHS)  &kp LS(EQL)  &kp LS(N3)
                   &kp RBKT    &kp N4      &kp N5       &kp N6     &kp RA(N7)       &kp RA(N0)  &kp LSHFT   &kp LCTRL     &kp LALT     &kp LGUI
     &kp LS(N5)    &kp LS(N7)  &kp N1      &kp N2       &kp N3     &kp RA(N8)       &kp RA(N9)  &kp LS(N1)  &kp LS(N0)    &kp LS(N6)   &kp RA(NUBS)  &kp LS(N4)
-                                          &kp N0       &kp MINUS  &kp EQL          &kp NUHS    &trans      &lt FUN DEL
+                                          &kp N0       &kp MINUS  &kp EQUAL        &kp NUHS    &trans      &lt FUN DEL
                         >;
                 };
 
